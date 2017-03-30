@@ -1,6 +1,11 @@
 data
+code/notebooks/covariance/.ipynb_checkpoints
+code/notebooks/minkowski/.ipynb_checkpoints
+code/notebooks/permeability/.ipynb_checkpoints
 checkpoints/beadpack
+checkpoints/berea
 checkpoints/ketton
-code/notebooks/minkowski
-code/notebooks/permeability
+code/pytorch
+code/torch
 *.tiff
+*.pyc
