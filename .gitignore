@@ -1,4 +1,6 @@
 data
 checkpoints/beadpack
 checkpoints/ketton
+code/notebooks/minkowski
+code/notebooks/permeability
 *.tiff
