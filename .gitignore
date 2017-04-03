@@ -1,4 +1,9 @@
-data
+data/beadpack/sampled
+data/beadpack/original/postprocessed
+data/berea/sampled
+data/berea/original/postprocessed
+data/ketton/sampled
+data/ketton/original/postprocessed
 code/notebooks/comparisons/.ipynb_checkpoints
 code/notebooks/timing/.ipynb_checkpoints
 code/notebooks/covariance/.ipynb_checkpoints
