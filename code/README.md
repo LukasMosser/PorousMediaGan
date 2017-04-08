@@ -1,4 +1,9 @@
-# Code Implementations
+# Implementations
+## Jupyter Notebooks
+ - A series of notebooks to generate the figures of the paper as well as pre and post-process samples from the GAN network.
+ 
+## Training Code
+Folders `pytorch` and `torch`
  - Two Versions available
  - Torch used for Ketton and Beadpack: Implements white noise injection
  - Pytorch used for Berea (Recommended): Implements Label Smoothing
