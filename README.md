@@ -7,11 +7,11 @@
 ## Results
 Cross-Sectional Views of the three trained models
 - Beadpack Sample
-![alt text](https://github.com/LukasMosser/PorousMediaGAN/paper/figures/beadpack_comparison.png"Beadpack Comparison")
+[alt text](https://github.com/LukasMosser/PorousMediaGAN/paper/figures/beadpack_comparison.png"Beadpack Comparison")
 - Berea Sample
-![alt text](https://github.com/LukasMosser/PorousMediaGAN/paper/figures/berea_comparison.png"Berea Comparison")
+[alt text](https://github.com/LukasMosser/PorousMediaGAN/paper/figures/berea_comparison.png"Berea Comparison")
 - Ketton Sample
-![alt text](https://github.com/LukasMosser/PorousMediaGAN/paper/figures/ketton_comparison.png"Ketton Comparison")
+[alt text](https://github.com/LukasMosser/PorousMediaGAN/paper/figures/ketton_comparison.png"Ketton Comparison")
 
 ## Instructions
 ### Pre-requisites
