@@ -1,4 +1,5 @@
-<img align="right" width="40%" height="40%" src="https://github.com/LukasMosser/PorousMediaGan/blob/master/misc/render_transp.png">
+<img align="right" width="40%" height="40%" src="https://github.com/LukasMosser/PorousMediaGan/blob/master/misc/render_transp.png"/>
+
 # PorousMediaGAN 
 ---
 ## Abstract
