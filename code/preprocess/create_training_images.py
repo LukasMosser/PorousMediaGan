@@ -29,14 +29,14 @@ J_inc = stride
 K_inc = stride
 
 target_direc = str(opt.target_dir)
-
+count = 0
 for i in range(0, img.shape[0], I_inc):
     for j in range(0, img.shape[1], J_inc):
         for k in range(0, img.shape[2], K_inc):
             subset = img[i:i+N, j:j+N, k:k+O]
             if subset.shape == (N, M, O):
-                f = h5py.File(target_direc+"/"+str(opt.name)+"_"+str(count)+".hdf5, "w")
+                f = h5py.File(target_direc+"/"+str(opt.name)+"_"+str(count)+".hdf5", "w")
                 f.create_dataset('data', data=subset, dtype="i8", compression="gzip")
                 f.close()
                 count += 1
-print count
+print(count)
