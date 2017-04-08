@@ -55,7 +55,10 @@ cd ./data/berea/original/raw
 #unzip using your preferred unzipper
 unzip berea.zip
 ```
-
+- From the pytorch folder run `generate.py` as follows
+```bash
+python generate.py --imageSize 64 --ngf 32 --ndf 16 --nz 512 --netG [path to generator checkpoint].pth --experiment berea --imsize 9 --D3 --cuda --ngpu 1
+```
 
 ## Directory Overview
 
