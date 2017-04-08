@@ -9,8 +9,8 @@ We present a novel method to reconstruct the solid-void structure of porous medi
 Results show that GANs can be used to reconstruct high-resolution three-dimensional images of porous media at different scales that are representative of the morphology of the images used to train the neural network. The fully convolutional nature of the trained neural network allows the generation of large samples while maintaining computational efficiency. Compared to classical stochastic methods of image reconstruction, the implicit representation of the learned data distribution, can be stored and reused to generate multiple realizations of the pore structure very rapidly.
 ```
 ### Authors
-Lukas Mosser [Twitter](https://twitter.com/porestar) [LinkedIn](https://www.linkedin.com/in/lukas-mosser-9948b32b/)
-[Olivier Dubrule](https://www.imperial.ac.uk/people/o.dubrule)
+Lukas Mosser [Twitter](https://twitter.com/porestar) [LinkedIn](https://www.linkedin.com/in/lukas-mosser-9948b32b/)  
+[Olivier Dubrule](https://www.imperial.ac.uk/people/o.dubrule)  
 [Martin J. Blunt](https://www.imperial.ac.uk/people/m.blunt)
 
 ## Results
