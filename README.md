@@ -2,8 +2,8 @@
 
 # PorousMediaGAN 
 ---
-Implementation and data repository for PorousMediaGAN - stochastic image reconstruction
-of porous media using generative adversarial networks (GAN)
+Implementation and data repository for PorousMediaGAN  
+stochastic image reconstruction of porous media using generative adversarial networks (GAN)
 ## Authors
 ---
 Lukas Mosser [Twitter](https://twitter.com/porestar) [LinkedIn](https://www.linkedin.com/in/lukas-mosser-9948b32b/)  
