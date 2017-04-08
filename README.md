@@ -48,6 +48,17 @@ cd PorousMediaGAN
 
 ## Pre-trained model (Pytorch version only)
 We have included a pre-trained model used for the Berea sandstone example in the paper in the repository.
+- From the pytorch folder run `generate.py` as follows
+```bash
+python generate.py --imageSize 64 --ngf 32 --ndf 16 --nz 512 --netG [path to generator checkpoint].pth --experiment berea --imsize 9 --cuda --ngpu 1
+```
+Use the modifier `--imsize` to generate the size of the output images.  
+`--imsize 1` corresponds to the training image size
+Replace `[path to generator checkpoint].pth` with the path to the provided checkpoint e.g. `checkpoints\berea\berea_generator_epoch_24.pth`
+
+## Training
+We highly recommend a modern Nvidia GPU to perform training.  
+All models were trained on `Nvidia K40` GPUs.
 To create the training image dataset from the full CT image perform the following steps:
 - Unzipping of the CT image
 ```bash
@@ -55,15 +66,28 @@ cd ./data/berea/original/raw
 #unzip using your preferred unzipper
 unzip berea.zip
 ```
-- From the pytorch folder run `generate.py` as follows
+- Use `create_training_images.py` to create the subvolume training images. Here an example use:
 ```bash
-python generate.py --imageSize 64 --ngf 32 --ndf 16 --nz 512 --netG [path to generator checkpoint].pth --experiment berea --imsize 9 --D3 --cuda --ngpu 1
+python create_training_images.py --image berea.tif --name berea --edgelength 64 --stride 32 --target_dir berea_ti
 ```
+This will create the sub-volume training images as an hdf5 format which can then be used for training.  
+- Train the GAN
+Use `main.py` to train the GAN network. Example usage:
+```bash
+python main.py --dataset 3D --dataroot [path to training images] --imageSize 64 --batchSize 128 --ngf 64 --ndf 16 --nz 512 --niter 1000 --lr 1e-5 --workers 2 --ngpu 2 --cuda 
+```
+## Data Analysis
+We use a number of jupyter notebooks to analyse samples during and after training.
+- Use `code\notebooks\Sample Postprocessing.ipynb` to postprocess sampled images
+-- Converts image from hdf5 to tiff file format
+-- Computes porosity
+- Use `code\notebooks\covariance\Compute Covariance.ipynb` to compute covariances
+-- to plot results use `Covariance Analysis.ipynb` and `Covariance Graphs.ipynb` as an example on how to analyse the samples.
 
-## Directory Overview
-
-
-# Citation
+### Image Morphological parameters
+We have used the image analysis software [Fiji](https://fiji.sc/) to analyse generated samples using [MorpholibJ](http://imagej.net/MorphoLibJ).
+The images can be loaded as tiff files and analysed using `MorpholibJ\Analyze\Analyze Particles 3D`.
+## Citation
 ---
 If you use our code for your own research, we would be grateful if you cite our publication
 [ArXiv]()

@@ -4,7 +4,6 @@ import h5py
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', required=True, help='3D')
 parser.add_argument('--image', required=True, help='path to image')
 parser.add_argument('--name', required=True, help='name of dataset')
 parser.add_argument('--edgelength', type=int, default=128, help='input batch size')
