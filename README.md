@@ -2,19 +2,9 @@
 
 # PorousMediaGAN 
 ---
-  
-  
-  
-  
-  
-  
-## Abstract
-```
-To evaluate the variability of multi-phase flow properties of porous media at the pore scale, it is necessary to acquire a number of representative samples of the void-solid structure. While modern x-ray computer tomography has made it possible to extract three-dimensional images of the pore space, assessment of the variability in the inherent material properties is often experimentally not feasible.
-We present a novel method to reconstruct the solid-void structure of porous media by applying a generative neural network that allows an implicit description of the probability distribution represented by three-dimensional image datasets. We show, by using an adversarial learning approach for neural networks, that this method of unsupervised learning is able to generate representative samples of porous media that honor their statistics. We successfully compare measures of pore morphology, such as the Euler characteristic, two-point statistics and directional single-phase permeability of synthetic realizations with the calculated properties of a bead pack, Berea sandstone, and Ketton limestone.
-Results show that GANs can be used to reconstruct high-resolution three-dimensional images of porous media at different scales that are representative of the morphology of the images used to train the neural network. The fully convolutional nature of the trained neural network allows the generation of large samples while maintaining computational efficiency. Compared to classical stochastic methods of image reconstruction, the implicit representation of the learned data distribution, can be stored and reused to generate multiple realizations of the pore structure very rapidly.
-```
-#### Authors
+Implementation and data repository for PorousMediaGAN - stochastic image reconstruction  
+of porous media using generative adversarial networks (GAN)
+## Authors
 ---
 Lukas Mosser [Twitter](https://twitter.com/porestar) [LinkedIn](https://www.linkedin.com/in/lukas-mosser-9948b32b/)  
 [Olivier Dubrule](https://www.imperial.ac.uk/people/o.dubrule)  
