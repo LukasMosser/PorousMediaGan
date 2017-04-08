@@ -2,12 +2,12 @@
 
 # PorousMediaGAN 
 Implementation and data repository for PorousMediaGAN  
-Reconstruction of three-dimensional porous media using generative adversarial neural networks
+**Reconstruction of three-dimensional porous media using generative adversarial neural networks**
 ## Authors
 Lukas Mosser [Twitter](https://twitter.com/porestar) [LinkedIn](https://www.linkedin.com/in/lukas-mosser-9948b32b/)  
 [Olivier Dubrule](https://www.imperial.ac.uk/people/o.dubrule)  
 [Martin J. Blunt](https://www.imperial.ac.uk/people/m.blunt)  
-Department of Earth Science and Engineering, Imperial College London
+*Department of Earth Science and Engineering, Imperial College London*
 
 ## Results
 Cross-Sectional Views of the three trained models
