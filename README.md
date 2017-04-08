@@ -11,7 +11,8 @@ Results show that GANs can be used to reconstruct high-resolution three-dimensio
 ### Authors
 Lukas Mosser [Twitter](https://twitter.com/porestar) [LinkedIn](https://www.linkedin.com/in/lukas-mosser-9948b32b/)  
 [Olivier Dubrule](https://www.imperial.ac.uk/people/o.dubrule)  
-[Martin J. Blunt](https://www.imperial.ac.uk/people/m.blunt)
+[Martin J. Blunt](https://www.imperial.ac.uk/people/m.blunt)  
+Department of Earth Science and Engineering, Imperial College London
 
 ## Results
 Cross-Sectional Views of the three trained models
