@@ -86,7 +86,7 @@ We use a number of jupyter notebooks to analyse samples during and after trainin
 We have used the image analysis software [Fiji](https://fiji.sc/) to analyse generated samples using [MorpholibJ](http://imagej.net/MorphoLibJ).  
 The images can be loaded as tiff files and analysed using `MorpholibJ\Analyze\Analyze Particles 3D`.
 ## Results
-We additionally provide the results used to create our publication in `analysis'
+We additionally provide the results used to create our publication in `analysis`.
 - Covariance S2(r)
 - Image Morphology 
 - Permeability Results
