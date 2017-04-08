@@ -2,7 +2,7 @@
 
 # PorousMediaGAN 
 ---
-Implementation and data repository for PorousMediaGAN - stochastic image reconstruction  
+Implementation and data repository for PorousMediaGAN - stochastic image reconstruction
 of porous media using generative adversarial networks (GAN)
 ## Authors
 ---
@@ -75,7 +75,6 @@ If you use our code for your own research, we would be grateful if you cite our 
 
 
 ## Acknowledgment
----
 The code used for our research is based on [DCGAN](https://github.com/soumith/dcgan.torch)
 for the [torch](http://torch.ch/) version and the [pytorch](https://github.com/pytorch) example on how to implement a [GAN](https://github.com/pytorch/examples/tree/master/dcgan)
 Our dataloader has been modified from [DCGAN](https://github.com/soumith/dcgan.torch).
