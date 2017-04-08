@@ -4,6 +4,9 @@ data/berea/sampled
 data/berea/original/postprocessed
 data/ketton/sampled
 data/ketton/original/postprocessed
+data/beadpack/original/tiff/beadpack.tif
+data/berea/original/raw/berea.tif
+data/ketton/original/raw/ketton.tif
 code/notebooks/comparisons/.ipynb_checkpoints
 code/notebooks/timing/.ipynb_checkpoints
 code/notebooks/covariance/.ipynb_checkpoints
