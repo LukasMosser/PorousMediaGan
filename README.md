@@ -71,7 +71,7 @@ unzip berea.zip
 python create_training_images.py --image berea.tif --name berea --edgelength 64 --stride 32 --target_dir berea_ti
 ```
 This will create the sub-volume training images as an hdf5 format which can then be used for training.  
-- Train the GAN
+- Train the GAN  
 Use `main.py` to train the GAN network. Example usage:
 ```bash
 python main.py --dataset 3D --dataroot [path to training images] --imageSize 64 --batchSize 128 --ngf 64 --ndf 16 --nz 512 --niter 1000 --lr 1e-5 --workers 2 --ngpu 2 --cuda 
@@ -79,10 +79,10 @@ python main.py --dataset 3D --dataroot [path to training images] --imageSize 64 
 ## Data Analysis
 We use a number of jupyter notebooks to analyse samples during and after training.
 - Use `code\notebooks\Sample Postprocessing.ipynb` to postprocess sampled images
--- Converts image from hdf5 to tiff file format
--- Computes porosity
+	- Converts image from hdf5 to tiff file format
+	- Computes porosity
 - Use `code\notebooks\covariance\Compute Covariance.ipynb` to compute covariances
--- to plot results use `Covariance Analysis.ipynb` and `Covariance Graphs.ipynb` as an example on how to analyse the samples.
+	- to plot results use `Covariance Analysis.ipynb` and `Covariance Graphs.ipynb` as an example on how to analyse the samples.
 
 ### Image Morphological parameters
 We have used the image analysis software [Fiji](https://fiji.sc/) to analyse generated samples using [MorpholibJ](http://imagej.net/MorphoLibJ).
