@@ -1,4 +1,5 @@
-# PorousMediaGAN <img style="float: right;" width="25%" height="25%", src="https://github.com/LukasMosser/PorousMediaGan/blob/master/misc/render_transp.png">
+# PorousMediaGAN 
+<img style="float: right;" width="25%" height="25%", src="https://github.com/LukasMosser/PorousMediaGan/blob/master/misc/render_transp.png">
 ---
 ## Abstract
 
