@@ -94,7 +94,6 @@ We additionally provide the results used to create our publication in `analysis'
 - Permeability Results
 The Jupyter notebooks included in this repository were used to generate the graphs of the publication.
 ## Citation
----
 If you use our code for your own research, we would be grateful if you cite our publication
 [ArXiv]()
 ```
