@@ -1,11 +1,9 @@
 <img align="right" width="40%" height="40%" src="https://github.com/LukasMosser/PorousMediaGan/blob/master/misc/render_transp.png"/>
 
 # PorousMediaGAN 
----
 Implementation and data repository for PorousMediaGAN  
-stochastic image reconstruction of porous media using generative adversarial networks (GAN)
+Three-dimensional reconstruction of porous media using generative adversarial networks
 ## Authors
----
 Lukas Mosser [Twitter](https://twitter.com/porestar) [LinkedIn](https://www.linkedin.com/in/lukas-mosser-9948b32b/)  
 [Olivier Dubrule](https://www.imperial.ac.uk/people/o.dubrule)  
 [Martin J. Blunt](https://www.imperial.ac.uk/people/m.blunt)  
