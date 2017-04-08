@@ -2,6 +2,16 @@
 
 # PorousMediaGAN 
 ---
+
+
+
+
+
+
+
+
+
+
 ## Abstract
 ```
 To evaluate the variability of multi-phase flow properties of porous media at the pore scale, it is necessary to acquire a number of representative samples of the void-solid structure. While modern x-ray computer tomography has made it possible to extract three-dimensional images of the pore space, assessment of the variability in the inherent material properties is often experimentally not feasible.
