@@ -46,7 +46,7 @@ git clone https://github.com/LukasMosser/PorousMediaGAN
 cd PorousMediaGAN
 ```
 
-## Pre-trained model (Pytorch version only)
+### Pre-trained model (Pytorch version only)
 We have included a pre-trained model used for the Berea sandstone example in the paper in the repository.
 - From the pytorch folder run `generate.py` as follows
 ```bash
@@ -56,7 +56,7 @@ Use the modifier `--imsize` to generate the size of the output images.
 `--imsize 1` corresponds to the training image size
 Replace `[path to generator checkpoint].pth` with the path to the provided checkpoint e.g. `checkpoints\berea\berea_generator_epoch_24.pth`
 
-## Training
+### Training
 We highly recommend a modern Nvidia GPU to perform training.  
 All models were trained on `Nvidia K40` GPUs.
 To create the training image dataset from the full CT image perform the following steps:
@@ -82,11 +82,17 @@ We use a number of jupyter notebooks to analyse samples during and after trainin
 	- Converts image from hdf5 to tiff file format
 	- Computes porosity
 - Use `code\notebooks\covariance\Compute Covariance.ipynb` to compute covariances
-	- to plot results use `Covariance Analysis.ipynb` and `Covariance Graphs.ipynb` as an example on how to analyse the samples.
+	- To plot results use `Covariance Analysis.ipynb` and `Covariance Graphs.ipynb` as an example on how to analyse the samples.
 
 ### Image Morphological parameters
-We have used the image analysis software [Fiji](https://fiji.sc/) to analyse generated samples using [MorpholibJ](http://imagej.net/MorphoLibJ).
+We have used the image analysis software [Fiji](https://fiji.sc/) to analyse generated samples using [MorpholibJ](http://imagej.net/MorphoLibJ).  
 The images can be loaded as tiff files and analysed using `MorpholibJ\Analyze\Analyze Particles 3D`.
+## Results
+We additionally provide the results used to create our publication in `analysis'
+- Covariance S2(r)
+- Image Morphology 
+- Permeability Results
+The Jupyter notebooks included in this repository were used to generate the graphs of the publication.
 ## Citation
 ---
 If you use our code for your own research, we would be grateful if you cite our publication
@@ -101,7 +107,7 @@ If you use our code for your own research, we would be grateful if you cite our 
 ```
 
 
-## Acknowledgment
+## Acknowledgement
 The code used for our research is based on [DCGAN](https://github.com/soumith/dcgan.torch)
-for the [torch](http://torch.ch/) version and the [pytorch](https://github.com/pytorch) example on how to implement a [GAN](https://github.com/pytorch/examples/tree/master/dcgan)
+for the [torch](http://torch.ch/) version and the [pytorch](https://github.com/pytorch) example on how to implement a [GAN](https://github.com/pytorch/examples/tree/master/dcgan).  
 Our dataloader has been modified from [DCGAN](https://github.com/soumith/dcgan.torch).
