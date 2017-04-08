@@ -89,7 +89,7 @@ The images can be loaded as tiff files and analysed using `MorpholibJ\Analyze\An
 We additionally provide the results used to create our publication in `analysis`.
 - Covariance S2(r)
 - Image Morphology 
-- Permeability Results
+- Permeability Results  
 The Jupyter notebooks included in this repository were used to generate the graphs of the publication.
 ## Citation
 If you use our code for your own research, we would be grateful if you cite our publication
@@ -108,3 +108,5 @@ If you use our code for your own research, we would be grateful if you cite our 
 The code used for our research is based on [DCGAN](https://github.com/soumith/dcgan.torch)
 for the [torch](http://torch.ch/) version and the [pytorch](https://github.com/pytorch) example on how to implement a [GAN](https://github.com/pytorch/examples/tree/master/dcgan).  
 Our dataloader has been modified from [DCGAN](https://github.com/soumith/dcgan.torch).
+  
+[O. Dubrule](https://www.imperial.ac.uk/people/o.dubrule) thanks Total for seconding him as a Visiting Professor at Imperial College.
