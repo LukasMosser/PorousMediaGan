@@ -17,7 +17,8 @@ Cross-Sectional Views of the three trained models
 ![Berea Comparison](https://github.com/LukasMosser/PorousMediaGan/blob/master/paper/figures/berea_comparison.png)
 - Ketton Sample  
 ![Ketton Comparison](https://github.com/LukasMosser/PorousMediaGan/blob/master/paper/figures/ketton_comparison.png)
-
+## Methodology
+![Process Overview](https://github.com/LukasMosser/PorousMediaGan/blob/master/paper/figures/GAN_overview.png)
 ## Instructions
 ### Pre-requisites
 - To run any of the `jupyter` notebooks follow instructions [here](http://jupyter.org/install.html) or install via pip.
