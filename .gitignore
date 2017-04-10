@@ -17,8 +17,6 @@ code/notebooks/preprocess/.ipynb_checkpoints
 code/notebooks/training/.ipynb_checkpoints
 checkpoints/beadpack
 checkpoints/ketton
-code/pytorch
-code/torch
 paper/paper
 *.tiff
 *.pyc
