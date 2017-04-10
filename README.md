@@ -4,7 +4,7 @@
 Implementation and data repository for PorousMediaGAN  
 **Reconstruction of three-dimensional porous media using generative adversarial neural networks**
 ## Authors
-Lukas Mosser [Twitter](https://twitter.com/porestar) [LinkedIn](https://www.linkedin.com/in/lukas-mosser-9948b32b/)  
+[Lukas Mosser](mailto:lukas.mosser15@imperial.ac.uk) [Twitter](https://twitter.com/porestar)  
 [Olivier Dubrule](https://www.imperial.ac.uk/people/o.dubrule)  
 [Martin J. Blunt](https://www.imperial.ac.uk/people/m.blunt)  
 *Department of Earth Science and Engineering, Imperial College London*
@@ -53,11 +53,12 @@ python generate.py --imageSize 64 --ngf 32 --ndf 16 --nz 512 --netG [path to gen
 ```
 Use the modifier `--imsize` to generate the size of the output images.  
 `--imsize 1` corresponds to the training image size
-Replace `[path to generator checkpoint].pth` with the path to the provided checkpoint e.g. `checkpoints\berea\berea_generator_epoch_24.pth`
-
+Replace `[path to generator checkpoint].pth` with the path to the provided checkpoint e.g. `checkpoints\berea\berea_generator_epoch_24.pth`  
+Generating realizations was tested on GPU and CPU and is very fast even for large reconstructions.
 ### Training
 We highly recommend a modern Nvidia GPU to perform training.  
-All models were trained on `Nvidia K40` GPUs.
+All models were trained on `Nvidia K40` GPUs.  
+Training on a single GPU takes approximately 24 hours.  
 To create the training image dataset from the full CT image perform the following steps:
 - Unzipping of the CT image
 ```bash
