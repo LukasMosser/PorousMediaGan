@@ -78,7 +78,7 @@ python main.py --dataset 3D --dataroot [path to training images] --imageSize 64 
 #### Additional Training Data
 High-resolution CT scan data of porous media has been made publicly available via
 the Department of Earth Science and Engineering, Imperial College London and can be found [here](http://www.imperial.ac.uk/earth-science/research/
-research-groups/perm/research/pore-scale-modelling/
+research-groups/perm/research/pore-scale-modelling/)
 micro-ct-images-and-networks/)
 ## Data Analysis
 We use a number of jupyter notebooks to analyse samples during and after training.
