@@ -75,6 +75,11 @@ Use `main.py` to train the GAN network. Example usage:
 ```bash
 python main.py --dataset 3D --dataroot [path to training images] --imageSize 64 --batchSize 128 --ngf 64 --ndf 16 --nz 512 --niter 1000 --lr 1e-5 --workers 2 --ngpu 2 --cuda 
 ```
+#### Additional Training Data
+High-resolution CT scan data of porous media has been made publicly available via
+the Department of Earth Science and Engineering, Imperial College London and can be found [here](http://www.imperial.ac.uk/earth-science/research/
+research-groups/perm/research/pore-scale-modelling/
+micro-ct-images-and-networks/)
 ## Data Analysis
 We use a number of jupyter notebooks to analyse samples during and after training.
 - Use `code\notebooks\Sample Postprocessing.ipynb` to postprocess sampled images
