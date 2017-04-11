@@ -27,8 +27,6 @@ parser.add_argument('--cuda'  , action='store_true', help='enables cuda')
 parser.add_argument('--ngpu'  , type=int, default=1, help='number of GPUs to use')
 parser.add_argument('--netG', default='', help="path to netG (to continue training)")
 parser.add_argument('--experiment', default=None, help='Where to store samples and models')
-parser.add_argument('--adam', action='store_true', help='Whether to use adam (default is rmsprop)')
-parser.add_argument('--D3', action='store_true', help='Whether data is 3D.')
 opt = parser.parse_args()
 print(opt)
 
