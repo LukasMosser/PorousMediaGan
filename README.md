@@ -49,7 +49,7 @@ cd PorousMediaGAN
 We have included a pre-trained model used for the Berea sandstone example in the paper in the repository.
 - From the pytorch folder run `generate.py` as follows
 ```bash
-python generate.py --imageSize 64 --ngf 32 --ndf 16 --nz 512 --netG [path to generator checkpoint].pth --experiment berea --imsize 9 --cuda --ngpu 1
+python generator.py --seed 42 --imageSize 64 --ngf 32 --ndf 16 --nz 512 --netG [path to generator checkpoint].pth --experiment berea --imsize 9 --cuda --ngpu 1
 ```
 Use the modifier `--imsize` to generate the size of the output images.  
 `--imsize 1` corresponds to the training image size
