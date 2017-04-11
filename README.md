@@ -1,7 +1,7 @@
 <img align="right" width="40%" height="40%" src="https://github.com/LukasMosser/PorousMediaGan/blob/master/misc/render_transp.png"/>
 
 # PorousMediaGAN 
-Implementation and data repository for PorousMediaGAN  
+Implementation and data repository for
 **Reconstruction of three-dimensional porous media using generative adversarial neural networks**
 ## Authors
 [Lukas Mosser](mailto:lukas.mosser15@imperial.ac.uk) [Twitter](https://twitter.com/porestar)  
