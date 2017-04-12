@@ -10,7 +10,7 @@ Implementation and data repository for
 *Department of Earth Science and Engineering, Imperial College London*
 
 ## Results
-Cross-Sectional Views of the three trained models
+Cross-sectional views of the three trained models
 - Beadpack Sample  
 ![Beadpack Comparison](https://github.com/LukasMosser/PorousMediaGan/blob/master/paper/figures/beadpack_comparison.png)
 - Berea Sample  
@@ -98,12 +98,12 @@ We additionally provide the results used to create our publication in `analysis`
 The Jupyter notebooks included in this repository were used to generate the graphs of the publication.
 ## Citation
 If you use our code for your own research, we would be grateful if you cite our publication
-[ArXiv]()
+[ArXiv](http://arxiv.org/abs/1704.03225)
 ```
-@article{PorousMediaGAN
-	title={},
-	author={Mosser, Lukas and Dubrule, Olivier and Blunt, Martin J.}
-	journal={arXiv preprint arXiv:1703.update},
+@article{pmgan2017,
+	title={Reconstruction of three-dimensional porous media using generative adversarial neural networks},
+	author={Mosser, Lukas and Dubrule, Olivier and Blunt, Martin J.},
+	journal={arXiv preprint arXiv:1704.03225},
 	year={2017}
 }
 ```
