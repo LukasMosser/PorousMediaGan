@@ -88,7 +88,7 @@ if opt.netG != '':
     netG.load_state_dict(torch.load(opt.netG))
 print(netG)
 
-netD = dcgan.DCGAN3D_D(opt.imageSize, nz, nc, ngf, ngpu)
+netD = dcgan.DCGAN3D_D(opt.imageSize, nz, nc, ndf, ngpu)
 netD.apply(weights_init)
 if opt.netD != '':
     netD.load_state_dict(torch.load(opt.netD))
